@@ -16,7 +16,8 @@ const config = {
   database: 'Orders_db',
   options: {
     encrypt: false,
-    trustServerCertificate: true, // Accept self-signed certificate
+    trustServerCertificate: true,
+    connectTimeout: 30000,
   },
 };
 
